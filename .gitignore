@@ -1,0 +1,21 @@
+# Build output
+build/
+*.o
+*.exe
+*.out
+a.out
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# IDE files
+.vscode/
+.idea/
+*.user
+
+# SDL2 libraries (if bundled locally)
+# Comment this out if you want to commit them
+lib/
